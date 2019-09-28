@@ -18,7 +18,13 @@ public class JDK13Test {
                     WHERE `CITY` = `xiaweiyi`
                        """;
 
+        String test2 = """
+                    hello,
+                        world !
+                       """;
 
         System.out.println(query);
+
+        System.out.println(test2);
     }
 }
