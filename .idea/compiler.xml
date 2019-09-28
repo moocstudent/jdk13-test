@@ -9,6 +9,7 @@
         <module name="jdk13-test-pulltest" />
         <module name="test1" />
         <module name="jdk13-test" />
+        <module name="jdk13-test-pulltest3" />
       </profile>
     </annotationProcessing>
   </component>
