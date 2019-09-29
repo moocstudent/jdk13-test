@@ -15,4 +15,10 @@ public class JDK13Test2 {
                 }
         );
     }
+
+//    var 变量类型声明不可用于switch判定
+//    private static void howType(var param)   {
+//
+//    }
+
 }
