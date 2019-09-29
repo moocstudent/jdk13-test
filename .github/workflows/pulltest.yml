@@ -1,6 +1,6 @@
 name: PULLTEST
 
-on: [pull]
+on: [pull_request]
 
 jobs:
   build:
@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world! Pull the project now !
+    - uses: actions/checkout@v2
+    - name: Run a one-line script at pull_request
+      run: Pull the project now !
